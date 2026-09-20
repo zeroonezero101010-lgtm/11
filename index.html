@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>СТРОЙПРОФ — строительные услуги</title>
+<style>
+:root{--ink:#202830;--yellow:#f5c928;--light:#f3f5f6;--muted:#65707a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
+a{color:inherit;text-decoration:none}.wrap{max-width:1200px;margin:auto;padding:0 28px}
+header{background:#202830;color:white;position:sticky;top:0;z-index:5}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:14px;font-weight:800;font-size:25px;letter-spacing:1px}.brand small{display:block;font-size:12px;font-weight:400;letter-spacing:0}.logo{color:var(--yellow);font-size:38px}.links{display:flex;gap:30px;align-items:center}.links a{font-size:14px}.btn{display:inline-block;background:var(--yellow);color:#202830;padding:14px 24px;border-radius:4px;font-weight:700;border:0;cursor:pointer}.hero{min-height:360px;color:white;background:linear-gradient(90deg,rgba(18,24,29,.88),rgba(18,24,29,.1)),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1800&q=85') center/cover;display:flex;align-items:center}.hero-content{max-width:560px;padding:58px 0}.hero h1{font-size:clamp(36px,5vw,58px);line-height:1.04;margin:0 0 18px}.hero p{font-size:18px;line-height:1.5;color:#e8ecef}.perks{display:flex;gap:26px;flex-wrap:wrap;margin-top:25px;font-size:14px}.perks span:before{content:"✓";color:var(--yellow);font-size:20px;margin-right:9px}.section{padding:44px 0}.section h2{font-size:34px;margin:0 0 10px}.underline{width:84px;height:4px;background:var(--yellow);margin:0 0 26px}.section-head{display:flex;justify-content:space-between;align-items:center;gap:20px}.muted{color:var(--muted)}.projects{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.project{background:white}.project img{width:100%;height:190px;object-fit:cover;display:block}.project h3{font-size:16px;margin:12px 0 6px}.project p{font-size:13px;color:var(--muted);margin:0}.team-contact{display:grid;grid-template-columns:1fr 1fr;background:var(--light)}.team-photo{min-height:390px;background:url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=85') center/cover}.contact{padding:42px clamp(24px,5vw,64px);align-self:center}.contact h2{margin-top:0;font-size:30px}.contact p{color:var(--muted);line-height:1.5}.contact-list{display:grid;gap:18px;margin-top:24px}.contact-row{display:flex;gap:14px;align-items:center}.contact-row b{display:block;margin-bottom:4px}.contact-row span{font-size:14px;color:var(--muted)}.contact-icon{font-size:24px;width:28px}.price-cta{background:#202830;color:white;padding:34px 0}.cta-inner{display:flex;justify-content:space-between;align-items:center;gap:24px}.cta-inner h2{font-size:25px;margin:0 0 8px}.cta-inner p{color:#d2d8dd;margin:0 0 18px}.cta-note{color:#d2d8dd;max-width:170px}.footer{padding:20px 0;background:#171d22;color:#bfc6cc;font-size:13px}
+@media(max-width:850px){.links{gap:14px}.projects{grid-template-columns:repeat(2,1fr)}.team-contact{grid-template-columns:1fr}.team-photo{min-height:300px}.cta-inner{align-items:flex-start;flex-direction:column}}
+@media(max-width:560px){.wrap{padding:0 18px}.nav{height:auto;min-height:70px;flex-wrap:wrap;padding:12px 0}.brand{font-size:20px}.links{width:100%;justify-content:space-between;gap:8px;padding-bottom:8px}.links a{font-size:12px}.links .btn{padding:9px 12px}.hero-content{padding:42px 0}.projects{grid-template-columns:1fr}.project img{height:220px}.section h2{font-size:28px}.section-head{align-items:flex-start;flex-direction:column}}
+
+/* Выравнивание контента по левому краю */
+.wrap{margin-left:0;margin-right:0;max-width:none;padding-left:clamp(20px,6.7vw,120px);padding-right:clamp(20px,6.7vw,120px)}
+.hero-content{margin-left:0;text-align:left}
+.section-head{justify-content:flex-start}
+.section-head>a{margin-left:auto}
+.projects{justify-items:stretch}
+.project{text-align:left}
+.contact{text-align:left}
+.cta-inner{justify-content:flex-start}
+@media(max-width:560px){.wrap{padding-left:18px;padding-right:18px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="index.html"><span class="logo">⌂</span><span>СТРОЙПРОФ<small>Надёжные строительные решения</small></span></a>
+<nav class="links"><a href="#works">Наши работы</a><a href="#team">О нас</a><a href="#contacts">Контакты</a><a class="btn" href="prices.html">Цены&nbsp; →</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap"><div class="hero-content">
+<h1>Строительные<br>услуги под ключ</h1><p>Строим дома, делаем ремонт и выполняем строительные работы. Качество, опыт и ответственность на каждом этапе.</p>
+<div class="perks"><span>Гарантия на работы</span><span>Соблюдение сроков</span><span>Опытная бригада</span></div>
+</div></div></section>
+<section class="section wrap" id="works"><div class="section-head"><div><h2>Наши работы</h2><div class="underline"></div></div><a href="#contacts">Обсудить проект&nbsp; →</a></div>
+<div class="projects">
+<article class="project"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=700&q=80" alt="Построенный загородный дом"><h3>Строительство дома</h3><p>Каркасный дом, 120 м²</p></article>
+<article class="project"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80" alt="Современный интерьер"><h3>Ремонт квартиры</h3><p>Комплексная отделка</p></article>
+<article class="project"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt="Благоустроенный участок"><h3>Благоустройство</h3><p>Участок и наружные работы</p></article>
+<article class="project"><img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=700&q=80" alt="Деревянный загородный дом"><h3>Баня из дерева</h3><p>Строительство и отделка</p></article>
+</div></section>
+<section class="team-contact" id="team"><div class="team-photo" role="img" aria-label="Строительная бригада на объекте"></div>
+<div class="contact" id="contacts"><h2>Свяжитесь с нами</h2><p>Ответим на вопросы, рассчитаем стоимость и поможем спланировать работы.</p>
+<div class="contact-list">
+<div class="contact-row"><span class="contact-icon">☎</span><div><b>+375 44 714 34 13</b><span>Звоните с 8:00 до 20:00</span></div></div>
+<div class="contact-row"><span class="contact-icon">◉</span><div><b>+375 44 714 34 13</b><span>WhatsApp / Telegram</span></div></div>
+<div class="contact-row"><span class="contact-icon">✉</span><div><b>stroiprof_minsk@mail.ru</b><span>Ответим в течение рабочего дня</span></div></div>
+<div class="contact-row"><span class="contact-icon">⌖</span><div><b>г. Минск</b><span>Выезд на объекты по договорённости</span></div></div>
+</div></div></section>
+<section class="price-cta"><div class="wrap cta-inner"><div><h2>Узнайте наши расценки</h2><p>Подробные цены на основные виды работ — на отдельной странице.</p><a class="btn" href="prices.html">Перейти к ценам&nbsp; →</a></div><div class="cta-note">▤ &nbsp; Прайс-лист<br>&nbsp;&nbsp;&nbsp;&nbsp;и расценки</div></div></section>
+</main><footer class="footer"><div class="wrap">© 2026 СТРОЙПРОФ · Строительные услуги</div></footer>
+</body></html>
